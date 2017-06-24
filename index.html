@@ -21,38 +21,59 @@
   <h2> After selection click the attack button to start the fight. Choose your opponents wisely as your hero must survive all three encounters to emerge victorious.</h2>
   	</div>
   <h3> Heroes</h3>
+  <div class = "col-md-12">
+ <h1 class = "text-center">Choose Your Player</h1>
+</div>  
   <div class="row">
   	<div class="col-md-3">
-  		<div class="Tracer">
+  		<div class="Tracer choice" data-name="Tracer"> Tracer
   	<img class="img-responsive center-block" src="https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/8/81/Tracer-portrait.png/169px-Tracer-portrait.png?version=eb0935cc91653983bc409dd51626ba56">
   	<h4 class = "TracerHP HP text-center"></h4>	
 	</div>
 	</div>
 
   	<div class="col-md-3">
-  		<div class="Soldier76">
+  		<div class="Soldier76 choice" data-name="Soldier76"> Soldier 76
   	<img class="img-responsive center-block" src="https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/e/e0/Soldier76-portrait.png/224px-Soldier76-portrait.png?version=6ae765538841ad3f22d2dbc38fa3ba03">
   	<h4 class= "Soldier76HP HP text-center"></h4>
 	</div>
 	</div>
 
  	<div class="col-md-3">
- 		<div class="McCree">
+ 		<div class="McCree choice" data-name="McCree"> McCree
   	<img class="img-responsive center-block" src="https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/d/d2/Mccree-portrait.png/264px-Mccree-portrait.png?version=83f298037e64b8c8565d3a93159fb451">
   	<h4 class="McCreeHP HP text-center"></h4>
 	</div>
 	</div>
 
   	<div class="col-md-3">
-  		<div class="Reaper">
+  		<div class="Reaper choice" data-name="Reaper"> Reaper
   	<img class="img-responsive center-block" src="https://hydra-media.cursecdn.com/overwatch.gamepedia.com/thumb/7/74/Reaper-portrait.png/272px-Reaper-portrait.png?version=648fc857cf4e2f7526833dfaead077ae">
   	<h4 class="ReaperHP HP text-center"></h4>
   	</div>
   	</div>
   </div>
 
+<div class = "row text-center">
+  <div class = "col-md-3">
+  <h5>Attacker</h5>
+    <div class="attacker">
+    </div>
+  </div>
+  
+  <div class ="col-md-6">
+  <h4> Versus </h4>
+  <button class="Attack">Attack!</button>
+  </div>
+ <div class ="col-md-3">
+ <h6>Opponent</h6>
+    <div class = "opponent">
+    </div>
+ <div class="col-md-12">
+  </div>
+  </div>
 
-
+</div>
 
 
 
@@ -79,57 +100,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- <div class="text-center">
         <button class="btn btn-warning btn-xs theme-button"><span class="glyphicon glyphicon-music"></span> Play Theme!</button>
         <button class="btn btn-default btn-xs pause-button"><span class="glyphicon glyphicon-pause"></span> Pause Song</button>
@@ -140,8 +110,8 @@
  var audioElement = document.createElement("audio");
       audioElement.setAttribute("src", "Assets/captainplanet24.mp3");
 
-      // Theme Button
-      $(".theme-button").on("click", function() {
+      // 
+      $(".Reaper").on("click", function() {
         audioElement.play();
       });
 

@@ -1,5 +1,14 @@
-body
-{
-	background-image: url("https://overwatch-a.akamaihd.net/img/logos/overwatch-share-3d5a268515283007bdf3452e877adac466d579f4b44abbd05aa0a98aba582eeaebc4541f1154e57ec5a43693345bebda953381a7b75b58adbd29d3f3eb439ad2.jpg");
-	width:
+body { 
+  background: url(http://i1.2pcdn.com/node14/image/game/545dbabec01d7d78454f4b3f/545dca1261fca867d28adf79/20141108024619a0dxq9080hs8ahoc.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:blue;
+	font-size: 24px;
+}
+.Tracer, .Reaper, .McCree, .Soldier76 {
+	color:blue;
 }
